@@ -1,0 +1,8 @@
+# robots.txt
+# Place this file at: public/robots.txt
+
+User-agent: *
+Allow: /
+
+# Point to sitemap
+Sitemap: https://rutukoladiya.netlify.app/sitemap.xml
