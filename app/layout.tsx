@@ -1,32 +1,31 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import { ThemeProvider }      from "@/components/ThemeProvider";
-import ScrollAnimationInit    from "@/components/ScrollAnimationInit";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import ScrollAnimationInit from "@/components/ScrollAnimationInit";
 
 import "./globals.css";
 
 // Font loaded via next/font (NOT via @import in CSS)
 // next/font automatically preloads
 const inter = Inter({
-  subsets:  ["latin"],
-  display:  "swap",
+  subsets: ["latin"],
+  display: "swap",
   variable: "--font-inter",
-  preload:  true,
+  preload: true,
 });
 
-// SEO Metadata 
+// SEO Metadata
 export const metadata: Metadata = {
   title: {
-    default:  "Rutu Koladiya - Frontend Developer | React & Next.js",
+    default: "Rutu Koladiya - Frontend Developer | React & Next.js",
     template: "%s | Rutu Koladiya",
   },
 
   description:
     "Frontend Developer with 1+ year of experience building fast, responsive web apps using React and Next.js. Available for frontend roles and freelance projects.",
 
-  // Change to your custom domain once you have one.
-  metadataBase: new URL("https://rutukoladiya.netlify.app"),
+  metadataBase: new URL("https://rutu-koladiya-portfolio.vercel.app/"),
   alternates: {
     canonical: "/",
   },
@@ -44,45 +43,47 @@ export const metadata: Metadata = {
 
   // When we share our portfolio link, this controls the preview card.
   openGraph: {
-    type:        "website",
-    url:         "https://rutukoladiya.netlify.app",
-    title:       "Rutu Koladiya - Frontend Developer | React & Next.js",
-    description: "Frontend Developer with 1+ year of experience building fast, responsive web apps using React and Next.js. Available for roles and freelance projects.",
-    siteName:    "Rutu Koladiya Portfolio",
-    // Add this image for rich link previews 
+    url: "https://rutu-koladiya-portfolio.vercel.app/",
+    title: "Rutu Koladiya - Frontend Developer | React & Next.js",
+    description:
+      "Frontend Developer with 1+ year of experience building fast, responsive web apps using React and Next.js. Available for roles and freelance projects.",
+    siteName: "Rutu Koladiya Portfolio",
+    locale: "en_US",
+    type: "website",
+    // Add this image for rich link previews
     // Create a 1200x630px image (your photo + name + title)
-    // Place it at: public/og-image.png
     images: [
       {
-        url:    "/og-image.png",  // TODO: Create this image
-        width:  1200,
+        url: "/og-image.png", // TODO: Create this image
+        width: 1200,
         height: 630,
-        alt:    "Rutu Koladiya - Frontend Developer specialising in React and Next.js",
+        alt: "Rutu Koladiya - Frontend Developer specialising in React and Next.js",
       },
     ],
   },
 
   twitter: {
-    card:        "summary_large_image",
-    title:       "Rutu Koladiya - Frontend Developer | React & Next.js",
-    description: "Frontend Developer specialising in React and Next.js. Available for roles and freelance projects.",
-    images:      ["/og-image.png"], // Same image as OG
+    card: "summary_large_image",
+    title: "Rutu Koladiya - Frontend Developer | React & Next.js",
+    description:
+      "Frontend Developer specialising in React and Next.js. Available for roles and freelance projects.",
+    images: ["/og-image.png"], // Same image as OG
   },
 
   robots: {
-    index:           true,
-    follow:          true,
+    index: true,
+    follow: true,
     googleBot: {
-      index:               true,
-      follow:              true,
+      index: true,
+      follow: true,
       "max-image-preview": "large",
     },
   },
 
   icons: {
-    icon:  [
-      { url: "/favicon.ico",  sizes: "any" },
-      { url: "/favicon.png",     type: "image/png", sizes: "32x32" },
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
     ],
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
   },
