@@ -1,8 +1,9 @@
-# robots.txt
-# Place this file at: public/robots.txt
-
+# *
 User-agent: *
 Allow: /
 
-# Point to sitemap
-Sitemap: https://rutukoladiya.netlify.app/sitemap.xml
+# Host
+Host: https://rutu-koladiya-portfolio.vercel.app
+
+# Sitemaps
+Sitemap: https://rutu-koladiya-portfolio.vercel.app/sitemap.xml
