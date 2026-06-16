@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <style>
+    .brand-r { fill: #f4f4f5; }
+    @media (prefers-color-scheme: light) {
+      .brand-r { fill: #09090b; }
+    }
+  </style>
+  <!-- Geometric 'R' -->
+  <path class="brand-r" d="M6 6h10a6 6 0 0 1 6 6 6 6 0 0 1-6 6H10v8H6V6zm4 8h6a2 2 0 0 0 2-2 2 2 0 0 0-2-2h-6v4z" />
+  <path class="brand-r" d="M14 18l6.5 8H25l-7.5-9h-3.5z" />
+  <!-- Golden-amber dot -->
+  <circle cx="28.5" cy="23.5" r="3" fill="#e8a622" />
+</svg>
