@@ -5,10 +5,9 @@ const config: Config = {
   // We handle theming via CSS variables, not Tailwind's dark: prefix
   darkMode: "class",
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./sections/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/sections/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -24,18 +23,21 @@ const config: Config = {
         "theme-text": "var(--text)",
         muted:        "var(--muted)",
 
-        // Fixed accent colours (same in both themes)
-        accent:    "#6c63ff",
-        "accent-2": "#a78bfa",
-        "accent-3": "#38bdf8",
+        // Unified accent colors
+        accent:    "#e8a622",
+        "accent-hover": "#d5940c",
+        "accent-2": "#e8a622", // Unified to prevent clashing shades
+        "accent-3": "#0ea5e9", // High contrast clean blue for links
 
         // Light theme specific (kept for reference, vars handle switching)
-        "light-bg":  "#f8f8fc",
-        "light-bg2": "#f0f0f7",
+        "light-bg":  "#fafafa",
+        "light-bg2": "#f4f4f5",
         "light-bg3": "#ffffff",
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "monospace"],
       },
       animation: {
         pulse2:   "pulse2 2s cubic-bezier(0.4,0,0.6,1) infinite",
