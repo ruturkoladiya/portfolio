@@ -15,8 +15,7 @@ export default function ExperienceSection() {
         </h2>
 
         <p className="text-base text-muted max-w-xl leading-relaxed mb-10">
-          1+ year of professional experience across three companies
-          from internship to full-time engineering.
+          1+ year of professional experience across three companies, spanning internships and full-time software engineering roles.
         </p>
 
         <ol className="border-l border-[var(--border)]" aria-label="Work experience timeline">

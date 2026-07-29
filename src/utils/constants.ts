@@ -9,90 +9,85 @@ export const NAV_LINKS = [
 
 // Hero 
 export const HERO_STATS = [
-  { num: "5+", label: "Applications Shipped" },
-  { num: "15+", label: "Production Modules Delivered" },
-  { num: "100%", label: "Responsive & Accessible Code" },
+  { num: "1+ Year", label: "Professional Experience" },
+  { num: "30+", label: "LIMS Features Delivered" },
+  { num: "25+", label: "REST APIs Integrated" },
 ] as const;
 
 // Philosophy
 export const PHILOSOPHY_BLOCKS = [
   {
-    title: "Structure Before Code",
-    body: "Before I write a single line, I think through the data flow, component boundaries, and state shape. It takes 20 minutes upfront and saves hours of refactoring later.",
+    title: "Thinking in Systems",
+    body: "I don't just write code; I design systems. Before starting a feature, I map out data flows, state structure, and edge cases to ensure the implementation is solid and maintainable.",
   },
   {
-    title: "Code Someone Else Can Read",
-    body: "I write code like the next developer matters - because they do. Clear naming, consistent patterns, and no clever tricks that nobody else understands.",
+    title: "Writing Readable Code",
+    body: "Readable code is code that survives. I prioritize clean naming, simple logic, and clear documentation over clever hacks. If a teammate can't understand it in a quick glance, it needs refactoring.",
   },
   {
-    title: "I Build for the Product, Not Just the Ticket",
-    body: "I try to understand why a feature exists, not just what it does. That context helps me make better decisions and flag things that don't make sense early.",
+    title: "Understanding the 'Why'",
+    body: "I build products, not just tickets. Understanding the business goals behind a feature helps me make better technical decisions, identify logical gaps early, and build a better user experience.",
   },
   {
-    title: "Performance Is Part of the Job",
-    body: "Slow UIs lose users. I keep an eye on bundle size, unnecessary re-renders, and API response times not as an afterthought, but as part of how I build.",
+    title: "Performance by Default",
+    body: "Performance isn't an afterthought. I actively audit bundle sizes, optimize rendering cycles, and design APIs for speed, because a slow interface is a broken interface.",
   },
 ] as const;
 
-//  Expertise 
+// Expertise 
 export const EXPERTISE_CARDS = [
   {
     icon: "⬡",
     color: "purple" as const,
-    title: "Frontend Architecture",
-    body: "I build modular, component-driven UIs using React and Next.js. Focused on clean state management (Redux Toolkit, Context API), client-side caching, and structured, reusable files.",
-    tags: ["React.js", "Next.js", "JavaScript", "TypeScript", "Redux Toolkit", "Context API", "SSR/SSG"],
+    title: "Frontend Development",
+    body: "I build clean, responsive user interfaces using React.js and Next.js. I focus on solid state management (Redux Toolkit, RTK Query), fast loading times, and clean UI components built with Tailwind CSS, Material UI, Ant Design, and Shadcn UI.",
+    tags: ["React.js", "Next.js", "TypeScript", "Redux Toolkit", "RTK Query", "Tailwind CSS", "Shadcn UI", "Material UI", "Ant Design"],
   },
   {
     icon: "◈",
     color: "teal" as const,
-    title: "Backend Development",
-    body: "I design and extend scalable backend APIs using Node.js and Express.js, connecting them to secure PostgreSQL databases and implementing structured data schemas.",
-    tags: ["Node.js", "Express.js", "PostgreSQL", "REST APIs", "SQL"],
+    title: "Backend & APIs",
+    body: "I design and scale backend services using Node.js and Express.js. I write clean database schemas, implement secure authentication, and optimize queries across PostgreSQL and MongoDB using Prisma ORM.",
+    tags: ["Node.js", "Express.js", "PostgreSQL", "MongoDB", "Prisma", "REST APIs", "JWT Auth"],
   },
   {
     icon: "◎",
     color: "amber" as const,
-    title: "AI Integration",
-    body: "I've integrated OpenAI APIs into production applications to automate workflows and add intelligent features. I also use AI tools daily - Cursor, ChatGPT, and Claude to write better code faster.",
-    tags: ["OpenAI API", "Cursor", "ChatGPT", "Claude"],
+    title: "AI & Integrations",
+    body: "I integrate AI capabilities into products using OpenAI and Gemini APIs to automate tasks and build smart features. I also handle asset hosting and processing using Cloudinary.",
+    tags: ["OpenAI API", "Google Gemini API", "AI-Powered Apps", "Cloudinary"],
   },
   {
     icon: "◇",
     color: "pink" as const,
-    title: "UI/UX Implementation",
-    body: "I translate designs into pixel-accurate, accessible interfaces. Comfortable with utility-first styling, rich text editors, and third-party component libraries to deliver polished user experiences.",
-    tags: ["TailwindCSS", "Ant Design", "Jodit Editor", "Responsive UI"],
+    title: "Tooling & Workflow",
+    body: "I work in Agile environments using Git, Postman, and Vite. I focus on team collaboration, thorough code reviews, and performance optimizations like code splitting and lazy loading.",
+    tags: ["Vite", "Figma", "Git/GitHub", "Postman", "Agile/Scrum", "Vercel"],
   },
 ] as const;
 
-//  Experience 
+// Experience 
 export const TIMELINE_ITEMS = [
   {
     period: "Jul 2025 – Present",
-    role: "Software Engineer",
-    company: "Bigscale Technologies · Full-time",
+    role: "Full Stack Developer",
+    company: "Bigscal Technologies Pvt. Ltd. · Full-time",
     points: [
-      "Contributing to Healthray Lab, a comprehensive lab information management system (LIMS) managing patient registration, pathology, billing, and report generation.",
-      "Developing high-impact frontend modules including dynamic invoice generation with QR code integration, barcode scanner compatibility, and data import/export utilities.",
-      "Implementing real-time data visualizations and dashboard analytics to monitor lab performance metrics.",
-      "Built a modular role-based permission system managing granular access control across the application.",
-      "Assisting with backend services, writing Node.js/Express.js APIs, and integrating SQL database query logic to support application data flows.",
-      "Integrating specialized third-party libraries including CKEditor for rich-text reports, Day.js for date parsing, and pdfMake for dynamic client-side PDF generation.",
-      "Designing and maintaining a library of highly reusable, accessible, and performant React components.",
-      "Integrating secure REST APIs with comprehensive frontend error boundary handling and state synchronization.",
-      "Utilizing Redux Toolkit for predictable state management across complex, asynchronous data flows.",
+      "Built and shipped over 30 production features for an enterprise Laboratory Information Management System (LIMS) spanning patient registration, pathology, radiology, billing, CRM, and analytics.",
+      "Developed full-stack features using React.js, Redux Toolkit, Node.js, Express.js, and SQL to support healthcare workflows.",
+      "Created reusable UI components and integrated 25+ REST APIs with secure authentication, caching, data polling, and error handling.",
+      "Improved application load times and responsiveness by implementing lazy loading, code splitting, debounced searches, and query optimization.",
+      "Collaborated in an Agile team to deliver high-priority updates, configurable report printing workflows, refactoring, and bug fixes.",
     ],
   },
   {
     period: "Jan 2025 – Jul 2025",
-    role: "Software Engineer Trainee",
+    role: "Frontend Developer Trainee",
     company: "TST Technology · Full-time",
     points: [
-      "Built responsive, accessible UI modules using React and Next.js aligned with modern web standards.",
-      "Integrated secure REST APIs and maintained local application state using React Hooks and the Context API.",
-      "Integrated OpenAI APIs to support intelligent features and automate backend workflows.",
-      "Collaborated with senior engineers to implement performance optimization and automated testing practices.",
+      "Built responsive React.js and Next.js applications, including server-side rendered (SSR) layouts, translating Figma designs into clean, accessible code.",
+      "Integrated OpenAI APIs to automate workflows and add AI-powered features, and built a shared UI component library used across multiple client projects.",
+      "Worked closely with designers, backend engineers, and QA in Agile sprints to ship updates on time.",
     ],
   },
   {
@@ -100,59 +95,59 @@ export const TIMELINE_ITEMS = [
     role: "Software Engineer Intern",
     company: "Tech Elecon Private Limited · Internship",
     points: [
-      "Developed responsive layouts using React, vanilla JavaScript, HTML5, and CSS3.",
-      "Parsed API datasets and bound dynamic endpoints to interactive frontend UI components.",
-      "Created reusable UI patterns and managed shared state with Context API and custom React hooks.",
-      "Participated in agile code reviews, refining team development and Git collaboration workflows.",
+      "Developed responsive layouts using React.js, JavaScript, HTML5, and CSS3.",
+      "Connected backend API endpoints to dynamic frontend UI components.",
+      "Built reusable UI components and managed shared state using Context API and custom hooks.",
+      "Participated in code reviews and collaborated with team members using Git.",
     ],
   },
 ] as const;
 
-//  Projects
+// Projects
 export const PROJECTS = [
   {
     label: "Personal · Full Stack",
-    title: "BakeFlow – Smart Order & Inquiry Manager for Bakers",
+    title: "BakeFlow: Smart Order & Inquiry Manager for Bakers",
     problem: "Home bakers had no simple digital tool to manage products, handle customer inquiries, and process orders without needing any technical knowledge.",
-    arch: "Built end-to-end admin panel with full CRUD for product management, unique shareable store links per baker, order acceptance/rejection workflow, search and filtering, and a fully responsive UI designed for non-technical users.",
-    stack: ["React", "Node.js", "Express", "PostgreSQL", "REST API"],
+    arch: "Architected the PostgreSQL database schema, built Express.js REST APIs, and developed the React.js frontend for a full-stack bakery management platform supporting product management, inquiries, and order-approval workflows.",
+    stack: ["React.js", "Redux Toolkit", "PostgreSQL", "Express.js", "Node.js", "Tailwind CSS", "REST APIs"],
     link: { label: "bake-flow-frontend.vercel.app", url: "https://bake-flow-frontend.vercel.app/welcome" },
   },
   {
     label: "Personal · Marketplace",
-    title: "Exclusive Vaults – Vehicle Data & Offer Platform",
-    problem: "Vehicle enthusiasts needed a public platform to explore detailed specs, interact with listings, and make direct offers with real-time communication.",
-    arch: "Public data vaults for vehicle specs and images, real-time chat with admin, direct offer flow, weekly email notifications for new listings, and Algolia + HubSpot search integration for accurate discovery.",
-    stack: ["React", "Algolia", "HubSpot", "Real-time Chat", "Email Notifications"],
+    title: "Exclusive Vaults: Vehicle Data & Offer Platform",
+    problem: "Vehicle enthusiasts needed a platform to browse detailed specs, view listings, and submit direct offers.",
+    arch: "Built specs catalog, integrated a real-time admin chat, developed an offer submission flow, and set up weekly email alerts for new listings. Added search and discovery using Algolia and HubSpot.",
+    stack: ["React.js", "Algolia", "HubSpot", "REST APIs", "Tailwind CSS"],
     link: { label: "exclusivevaults.com", url: "https://www.exclusivevaults.com/" },
   },
   {
     label: "Work Project · TST Technology",
-    title: "Email Marketing Tool – Bulk Campaign Manager",
-    problem: "Marketing teams needed a self-serve platform to create, schedule, and track bulk email campaigns without relying on third-party tools for every step.",
-    arch: "Contributed as part of the frontend team - built the overall UI, implemented the email template builder using Jodit Editor for rich-text editing, and developed the full authentication flow including login, registration, and route protection.",
-    stack: ["React", "Jodit Editor", "Ant Design", "Auth Flow"],
+    title: "Email Marketing Tool: Bulk Campaign Manager",
+    problem: "Marketing teams needed a platform to build, schedule, and manage bulk email campaigns.",
+    arch: "Built the frontend UI, integrated Jodit Editor for rich-text email template building, and developed a secure authentication flow (login, registration, and protected routes).",
+    stack: ["React.js", "Jodit Editor", "Ant Design", "REST APIs"],
     link: null,
   },
   {
     label: "Freelance · E-Commerce",
-    title: "Beardo.in – Product Catalog Module",
-    problem: "A well-known men's grooming brand needed a reliable way to manage their product catalogue across multiple categories on their e-commerce platform.",
-    arch: "Contributed as a freelancer built the product management module including add, edit, delete, and organise products across grooming categories. One focused module within a larger commercial platform.",
-    stack: ["React", "REST API", "E-Commerce"],
+    title: "Beardo.in: Product Catalog Module",
+    problem: "An e-commerce grooming brand needed a tool to manage and organize their product catalog across categories.",
+    arch: "Developed the catalog management module, enabling admins to add, edit, delete, and group products. Integrated the frontend features with the platform's inventory APIs.",
+    stack: ["React.js", "REST APIs", "Tailwind CSS"],
     link: { label: "beardo.in", url: "https://beardo.in/" },
   },
   {
-    label: "Freelance · Real Estate",
-    title: "Structa – Real Estate Analytics Platform",
-    problem: "A real estate client needed an analytics platform to help users search properties, visualise location data, and make informed decisions using demographic insights.",
-    arch: "Built the frontend advanced search and filtering UI, interactive maps with geospatial overlays using Google Maps API, and dynamic data visualisations (population, income, family stats) using Chart.js.",
-    stack: ["React", "Google Maps API", "Chart.js", "Data Visualisation"],
+    label: "Freelance · Analytics",
+    title: "Structa: Real Estate Analytics Platform",
+    problem: "Users needed an easy way to search properties and visualize location-based analytics/demographic insights to evaluate real estate markets faster.",
+    arch: "Built a real estate analytics platform featuring interactive maps and dashboards for location-based property insights, using React.js and REST APIs. Integrated Google Maps API and Chart.js to power location-based analytics with filterable views by location and price range.",
+    stack: ["React.js", "Google Maps API", "Chart.js", "REST APIs"],
     link: null,
   },
 ] as const;
 
-//  testimonuals
+// Testimonials
 export const TESTIMONIALS = [
   {
     quote: "Rutu Koladiya transformed our online presence with a modern, professional website. She understood our business goals and delivered exceptional results. We noticed improved lead quality and stronger brand visibility within a short period. Highly recommended.",

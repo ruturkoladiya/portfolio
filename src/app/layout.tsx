@@ -30,12 +30,12 @@ const jetbrainsMono = JetBrains_Mono({
 // SEO & GEO (Generative Engine Optimization) Metadata
 export const metadata: Metadata = {
   title: {
-    default: "Rutu Koladiya - Software Engineer | React & Next.js Developer",
+    default: "Rutu Koladiya - Full Stack Developer | React, Next.js & Node.js",
     template: "%s | Rutu Koladiya",
   },
 
   description:
-    "Rutu Koladiya is a Software Engineer with 1+ year of professional experience building fast, responsive, and accessible web applications using React, Next.js, Node.js, and TypeScript. Based in India, available for frontend roles and freelance projects.",
+    "Rutu Koladiya is a Full Stack Developer with 1+ year of professional experience building production-grade React.js, Next.js, and Node.js applications for healthcare and business platforms. Based in India.",
 
   metadataBase: new URL("https://rutu-koladiya-portfolio.vercel.app/"),
   alternates: {
@@ -44,25 +44,27 @@ export const metadata: Metadata = {
 
   keywords: [
     "Rutu Koladiya",
-    "Software Engineer",
-    "Frontend Developer",
-    "React Developer",
-    "Next.js Developer",
-    "React Developer India",
-    "Frontend Developer Surat",
-    "Freelance React Developer",
     "Full Stack Developer",
-    "TypeScript Developer",
+    "Full Stack MERN Developer",
+    "MERN Developer",
+    "Frontend Developer",
+    "React.js Developer",
+    "Next.js Developer",
     "Node.js Developer",
-    "Accessible Web Developer",
+    "Express.js Developer",
+    "PostgreSQL Developer",
+    "MongoDB Developer",
+    "Prisma ORM Developer",
+    "Full Stack Developer Surat",
+    "React Developer India",
   ],
 
   // When we share our portfolio link, this controls the preview card.
   openGraph: {
     url: "https://rutu-koladiya-portfolio.vercel.app/",
-    title: "Rutu Koladiya - Software Engineer | React & Next.js Developer",
+    title: "Rutu Koladiya - Full Stack Developer | React, Next.js & Node.js",
     description:
-      "Software Engineer with 1+ year of experience building fast, responsive web apps using React, Next.js, and Node.js. Available for roles and freelance projects.",
+      "Full Stack Developer with 1+ year of experience building production-grade React.js and Next.js applications for healthcare and business platforms.",
     siteName: "Rutu Koladiya Portfolio",
     locale: "en_US",
     type: "website",
@@ -71,16 +73,16 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Rutu Koladiya - Software Engineer specialising in React and Next.js",
+        alt: "Rutu Koladiya - Full Stack Developer",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Rutu Koladiya - Software Engineer | React & Next.js Developer",
+    title: "Rutu Koladiya - Full Stack Developer | React, Next.js & Node.js",
     description:
-      "Software Engineer specialising in React and Next.js. Available for roles and freelance projects.",
+      "Full Stack Developer with 1+ year of experience building production-grade React.js and Next.js applications for healthcare and business platforms.",
     images: ["/og-image.png"],
   },
 
@@ -115,9 +117,9 @@ const jsonLd = {
   "@type": "Person",
   name: "Rutu Koladiya",
   url: "https://rutu-koladiya-portfolio.vercel.app",
-  jobTitle: "Software Engineer",
+  jobTitle: "Full Stack Developer",
   description:
-    "Software Engineer with 1+ year of professional experience building fast, responsive, and accessible web applications using React, Next.js, Node.js, and TypeScript. Based in India.",
+    "Full Stack Developer with 1+ year of professional experience building production-grade React.js and Next.js applications for healthcare and business platforms. Based in India.",
   image: "https://rutu-koladiya-portfolio.vercel.app/og-image.png",
   email: "mailto:ruturkoladiya@gmail.com",
   address: {
@@ -130,20 +132,29 @@ const jsonLd = {
     "https://linkedin.com/in/rutu-koladiya",
   ],
   knowsAbout: [
-    "React",
+    "React.js",
     "Next.js",
     "TypeScript",
     "JavaScript",
     "Node.js",
     "Express.js",
     "PostgreSQL",
+    "MongoDB",
+    "Prisma ORM",
     "REST APIs",
     "Tailwind CSS",
     "Redux Toolkit",
+    "RTK Query",
+    "Material UI",
+    "Ant Design",
+    "Shadcn UI",
+    "Cloudinary",
+    "Vercel",
+    "OpenAI API",
+    "Google Gemini API",
     "Frontend Architecture",
     "Responsive Web Design",
     "Web Accessibility",
-    "OpenAI API Integration",
   ],
   alumniOf: {
     "@type": "EducationalOrganization",
@@ -155,9 +166,9 @@ const jsonLd = {
   },
   hasOccupation: {
     "@type": "Occupation",
-    name: "Software Engineer",
+    name: "Full Stack Developer",
     skills:
-      "React, Next.js, TypeScript, Node.js, Express.js, PostgreSQL, Redux Toolkit, REST APIs, Tailwind CSS",
+      "React.js, Next.js, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS, Material UI, Ant Design, Shadcn UI, Node.js, Express.js, PostgreSQL, MongoDB, Prisma, Cloudinary, OpenAI API, Google Gemini API",
   },
 };
 

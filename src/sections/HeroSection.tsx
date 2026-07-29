@@ -54,19 +54,19 @@ export default function HeroSection() {
               Hello, I&apos;m{" "}
               <span className="text-accent">Rutu Koladiya</span>
               <br />
-              Software Engineer.
+              Full Stack Developer.
             </h1>
 
             {/* Sub-headline */}
             <p className="max-w-xl text-base sm:text-lg text-muted leading-relaxed mb-10">
-              I build responsive, high-performance web applications using React, Next.js, and TypeScript, backed by hands-on backend development with Node.js and PostgreSQL. Focused on clean state architectures and delivering robust, full-stack systems.
+              I&apos;m a Full Stack Developer with over a year of experience building production-grade React.js and Next.js applications for healthcare and business platforms. I work across the entire stack, translating Figma designs into responsive frontends, building secure backend APIs with Node.js and Express.js, and managing PostgreSQL and MongoDB databases.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4">
               <Button href="#projects">View Work</Button>
-              <Button href="/rutukoladiya-resume.pdf" variant="ghost" external>
-                Download Resume
+              <Button href="https://drive.google.com/file/d/1fY7ch5kiTIqTDANFeSxi2sX7MH0ftSNy/view?usp=drivesdk" variant="ghost" external>
+                View Resume
               </Button>
             </div>
 

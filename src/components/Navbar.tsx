@@ -121,7 +121,7 @@ export default function Navbar() {
             document.getElementById("hero")?.scrollIntoView({ behavior: "smooth" });
             setActiveSection("hero");
           }}
-          aria-label="Rutu Koladiya — back to top"
+          aria-label="Rutu Koladiya - Back to Top"
           className="text-[15px] font-semibold tracking-wide text-theme-text cursor-pointer
                      min-w-[44px] min-h-[44px] flex items-center"
         >
